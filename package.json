@@ -1,0 +1,22 @@
+{
+  "name": "abhishek-jaiswar's-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "vite": "^5.0.12"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.4"
+  }
+}
