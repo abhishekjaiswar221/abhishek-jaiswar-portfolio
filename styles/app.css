@@ -486,7 +486,6 @@ img {
   border: 1px solid var(--color-darker);
   border-radius: 0.7rem;
   overflow: hidden;
-  padding: 2.5rem 0 0 2.5rem;
   line-height: 0;
 }
 
