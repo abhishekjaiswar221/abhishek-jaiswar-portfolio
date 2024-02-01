@@ -4,7 +4,6 @@ const navButton = document.querySelector("#navigation-button");
 let isMenuActive = false;
 
 const navButtonLinks = document.querySelectorAll(".navigation li a");
-
 navButtonLinks.forEach((link) => {
   link.addEventListener("click", () => {
     const navIconMenu = `<i class="bi bi-list"></i>`;
@@ -59,5 +58,5 @@ splide.mount();
 
 // Scroll Reveal
 ScrollReveal().reveal(".about", { delay: 300 });
-ScrollReveal().reveal(".testimonials", { delay: 300 });
+ScrollReveal().reveal(".portfolio", { delay: 300 });
 ScrollReveal().reveal(".contact", { delay: 300 });
