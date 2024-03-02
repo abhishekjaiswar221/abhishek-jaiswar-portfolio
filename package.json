@@ -1,15 +1,16 @@
 {
-  "name": "abhishek-jaiswar's-portfolio",
+  "name": "abhishek-jaiswar-portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "My Personal Portfolio",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "vite",
-    "build": "vite build",
+    "dev": "vite",
+    "build": "vite build --emptyOutDir",
     "preview": "vite preview"
   },
   "keywords": [],
-  "author": "",
+  "author": "Abhishek D Jaiswar",
   "license": "ISC",
   "dependencies": {
     "node-sass": "^9.0.0"

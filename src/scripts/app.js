@@ -1,7 +1,7 @@
 // Navigation Menu
 const navMenu = document.querySelector(".navigation");
-const navButton = document.querySelector("#navigation-button");
 let isMenuActive = false;
+const navButton = document.querySelector("#navigation-button");
 
 const navButtonLinks = document.querySelectorAll(".navigation li a");
 navButtonLinks.forEach((link) => {
@@ -31,32 +31,32 @@ navButton.addEventListener("click", () => {
   navMenu.classList.toggle("animate__bounceInLeft");
 });
 
-// Splidejs Slide
-const splide = new Splide(".splide", {
-  type: "loop",
-  direction: "ltr",
-  width: "72%",
-  height: "40rem",
-  autoplay: true,
-  perPage: 1,
-  breakpoints: {
-    1100: {
-      height: "42rem",
-      width: "90%",
-    },
-    720: {
-      height: "46rem",
-      width: "100%",
-    },
-    400: {
-      height: "50rem",
-    },
-  },
-});
+// // SplideJs Slide
+// const splide = new Splide(".splide", {
+//   type: "loop",
+//   direction: "ltr",
+//   width: "72%",
+//   height: "40rem",
+//   autoplay: true,
+//   perPage: 1,
+//   breakpoints: {
+//     1100: {
+//       height: "42rem",
+//       width: "90%",
+//     },
+//     720: {
+//       height: "46rem",
+//       width: "100%",
+//     },
+//     400: {
+//       height: "50rem",
+//     },
+//   },
+// });
 
-splide.mount();
+// splide.mount();
 
-// Scroll Reveal
-ScrollReveal().reveal(".about", { delay: 300 });
-ScrollReveal().reveal(".portfolio", { delay: 300 });
-ScrollReveal().reveal(".contact", { delay: 300 });
+// // Scroll Reveal
+// ScrollReveal().reveal(".about", { delay: 300 });
+// ScrollReveal().reveal(".portfolio", { delay: 300 });
+// ScrollReveal().reveal(".contact", { delay: 300 });
